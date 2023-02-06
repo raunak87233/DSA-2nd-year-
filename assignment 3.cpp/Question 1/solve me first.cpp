@@ -1,3 +1,7 @@
+//https://www.hackerrank.com/challenges/solve-me-first/submissions/code/294513395
+
+
+
 #include <cmath>
 #include <cstdio>
 #include <vector>

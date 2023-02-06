@@ -1,3 +1,7 @@
+//https://www.hackerrank.com/challenges/compare-the-triplets/submissions/code/294506437
+
+
+
 #include <bits/stdc++.h>
 
 using namespace std;

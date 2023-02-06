@@ -1,3 +1,7 @@
+//https://www.hackerrank.com/challenges/mini-max-sum/submissions/code/294508655
+
+
+
 #include <bits/stdc++.h>
 typedef long long L;
 using namespace std;

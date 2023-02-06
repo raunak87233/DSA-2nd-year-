@@ -1,3 +1,7 @@
+//https://www.hackerrank.com/challenges/birthday-cake-candles/submissions/code/294508846
+
+
+
 #include<iostream>
 using namespace std;
 

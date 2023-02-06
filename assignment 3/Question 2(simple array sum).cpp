@@ -1,3 +1,6 @@
+//https://www.hackerrank.com/challenges/simple-array-sum/submissions/code/294514340
+
+
 # include <iostream>
 # include <vector>
 using namespace std ;

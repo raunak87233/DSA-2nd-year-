@@ -1,3 +1,8 @@
+//https://www.hackerrank.com/challenges/staircase/submissions/code/294508438
+
+
+
+
 #include <bits/stdc++.h>
 
 using namespace std;

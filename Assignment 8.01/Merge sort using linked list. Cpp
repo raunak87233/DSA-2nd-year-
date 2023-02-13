@@ -1,0 +1,37 @@
+#include <iostream>
+
+struct Node {
+    int data;
+    Node *next;
+};
+
+Node *merge(Node *left, Node *right) {
+    Node *result = nullptr;
+    if (!left)
+        return right;
+    if (!right)
+        return left;
+    if (left->data <= right->data) {
+        result = left;
+        result->next = merge(left->next, right);
+    } else {
+        result = right;
+        result->next = merge(left, right->next);
+    }
+    return result;
+}
+
+Node *mergeSort(Node *head) {
+    if (!head || !head->next)
+        return head;
+    Node *middle = nullptr, *fast = head, *slow = head;
+    while (fast && fast->next) {
+        middle = slow;
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    middle->next = nullptr;
+    Node *left = mergeSort(head);
+    Node *right = mergeSort(slow);
+    return merge(left, right);
+}
